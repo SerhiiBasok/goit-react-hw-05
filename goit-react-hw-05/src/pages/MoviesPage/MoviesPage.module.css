@@ -10,7 +10,7 @@
 }
 
 .input {
-  border: 1px solid black;
+  border: 1px solid rgb(133, 74, 234);
   border-radius: 8px;
   width: 250px;
   height: 33px;
@@ -23,7 +23,7 @@
 
 .input:hover,
 .input:active {
-  border-color: black;
+  border-color: violet;
   transition: 300ms linear, color 300ms linear;
 }
 
@@ -31,19 +31,21 @@
   width: 70px;
   height: 37px;
   border-radius: 8px;
-  border: 1px solid black;
+  border: 1px solid rgb(133, 74, 234);
   margin-left: 10px;
   background-color: transparent;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.21;
   letter-spacing: -0.03em;
-  color: black;
+  color: rgb(171, 36, 221);
+  text-align: center;
+  padding: 2px;
 }
 
 .btn:hover {
   color: white;
-  background-color: black;
+  background-color: violet;
   transition: 300ms linear, color 300ms linear;
 }
 
